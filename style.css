@@ -1,0 +1,56 @@
+.photo {
+    box-shadow : 0 0 10px rgba(0, 0, 0, 0.8);
+}
+
+.photo-thumblist {
+    display : inline-block;
+    margin : -1px 2px;
+    padding : 0;
+    position : relative;
+}
+
+.photo-longlist {
+    background-color : #f1f1f1;
+    border-top : 1px solid #d1d1d1;
+    border-bottom : 1px solid #d1d1d1;
+    height : 75px;
+    overflow : auto;
+    padding : 7px 7px;
+}
+
+.photo-preview {
+    background-color : #222222;
+    height : 150px;
+    width : 100%;
+}
+
+.photo-googlemaps {
+    background-color : #222222;
+    border : 1px solid #222222;
+    height : 300px;
+    width : 100%;
+}
+
+.photo-map {
+    background-color : #222222;
+    height : 500px;
+    width : 100%;
+}
+
+.photo-map-overlay {
+    background-color : rgba(255, 255, 255, 0.8);
+    display : none;
+    margin : -501px 0 0 1px;
+    height : 420px;
+    overflow : auto;
+    padding : 40px 50px;
+    position : absolute;
+    width : 100%;
+}
+
+.photo-map-overlayclose {
+    display : none;
+    margin : 0 0 0 10px;
+    position : absolute;
+    z-index : 100;
+}
